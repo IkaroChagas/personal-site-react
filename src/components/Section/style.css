@@ -1,0 +1,34 @@
+section {
+  flex-direction: column;
+  gap: 3.2rem;
+
+  background-color: var(--BLACK-800);
+  border-radius: 1rem;
+  padding: 3rem 4rem;
+  width: 100%;
+
+  text-align: center;
+}
+
+section h1 {
+  padding: 1rem;
+  border-bottom: 0.2rem solid var(--BLUE);
+  width: fit-content;
+  margin: auto;
+
+  letter-spacing: 0.2rem;
+}
+
+section .description {
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.education {
+  text-align: left;
+}
+
+.education ul {
+  flex-direction: column;
+  gap: 1.6rem;
+}

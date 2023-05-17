@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Aviation WX",
+    "githubHref": "https://github.com/IkaroChagas/aviation-wx-react",
+    "deployHref": "https://aviation-wx-react.vercel.app/"
+  },
+  {
+    "title": "VEX virtual",
+    "githubHref": "https://github.com/IkaroChagas/vex-virtual",
+    "deployHref": "https://vex-virtual.vercel.app/"
+  }
+]

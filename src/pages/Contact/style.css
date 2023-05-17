@@ -1,0 +1,32 @@
+form {
+  background-color: var(--BLACK-800);
+  padding: 5rem;
+  border-radius: 2rem;
+  width: 100%;
+
+  flex-direction: column;
+  align-items: center;
+  gap: 6.4rem;
+}
+
+form button {
+  background-color: var(--BLUE);
+  border-radius: 0.5rem;
+  padding: 1.5rem 3rem;
+  border: none;
+
+  color: var(--BLACK-900);
+  font-weight: 800;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+}
+
+textarea {
+  border: 0.2rem solid var(--BLUE);
+  background-color: var(--BLACK-900);
+  border-radius: 0.5rem;
+  padding: 2.2rem 1.4rem;
+  outline: none;
+
+  font-size: 1.4rem;
+}
