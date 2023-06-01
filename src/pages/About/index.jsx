@@ -33,7 +33,7 @@ export default function About() {
 
   return (
     <DefaultLayout currentPage="about">
-      <Section title="Opa, me chamo Elias! &#128075;" className="flex">
+      <Section title="Olá, me chamo Ikaro! &#128075;" className="flex">
         <div className="description flex">
           {resumeFormatting(information.resume)}
         </div>
