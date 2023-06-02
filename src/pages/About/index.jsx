@@ -24,16 +24,22 @@ export default function About() {
   }
 
   function resumeFormatting(text) {
-    text = text.split('\n\n').map((paragraph, index) => {
+    if (!text) {
+      return null;
+    }
+    
+    const paragraphs = text.split('\n\n').map((paragraph, index) => {
       paragraph = paragraph.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
       return <p key={index} dangerouslySetInnerHTML={{ __html: paragraph }} />
     })
-    return text
+  
+    return paragraphs;
   }
+  
 
   return (
     <DefaultLayout currentPage="about">
-      <Section title="Olá, me chamo Ikaro! &#128075;" className="flex">
+      <Section title="Olá, me chamo Ikaro! &#083530;" className="flex">
         <div className="description flex">
           {resumeFormatting(information.resume)}
         </div>

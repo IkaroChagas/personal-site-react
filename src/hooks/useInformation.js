@@ -11,7 +11,7 @@ const useInformation = () => {
       setIsLoading(true)
 
       try {
-        const response = await api.get("/informacoes/1")
+        const response = await api.get("/informacoes/")
         const data = await response.data
         setInformation(data)
       } catch (error) {

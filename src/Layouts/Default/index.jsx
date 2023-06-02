@@ -4,6 +4,7 @@ import "./style.css"
 
 import NavigationItem from "../../components/NavigationItem"
 
+
 import useInformation from "../../hooks/useInformation"
 
 export default function Default({ currentPage, children }) {
@@ -66,7 +67,7 @@ export default function Default({ currentPage, children }) {
       <main className="flex">{children}</main>
 
       <footer>
-        <span>Developed with ❤ by <u>{information.name}</u>.</span>
+        <span>Developed with ❤ by Ikaro</span>
 
       </footer>
     </>
