@@ -11,8 +11,8 @@ const useCurriculo = () => {
       setIsLoading(true)
 
       try {
-        const academicExperience = await api.get("/experiencias?type=academica")
-        const professionalExperience = await api.get("/experiencias?type=profissional")
+        const academicExperience = await api.get("/experiencia?type=academica")
+        const professionalExperience = await api.get("/experiencia?type=profissional")
         setCurriculo({
           academicExperience: academicExperience.data,
           professionalExperience: professionalExperience.data,
