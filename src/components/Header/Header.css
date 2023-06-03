@@ -1,0 +1,14 @@
+header {
+    padding: 50px;
+}
+
+header img {
+    height: 150px;
+    border-radius: 50%;
+}
+
+header {
+    background-color: #548285;
+    text-align: center;
+    color: #f0e3e3;
+}

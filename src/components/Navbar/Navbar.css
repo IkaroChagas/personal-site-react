@@ -1,0 +1,49 @@
+nav {
+    background-color: #9AC9CC;
+    text-align: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 25px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 50px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #548285;
+}
+
+.barButton {
+    border: none;
+    padding: 20px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.barButton:hover {
+    border-radius: 10px;
+    background-color: #266569;
+    opacity: 0.8;
+}
+
+@media only screen and (max-width: 740px) {
+    nav ul li {
+        margin: 15px;
+        display: inline-block;
+        padding: 5px;
+    }
+
+    nav ul {
+        padding: 0px;
+    }
+}

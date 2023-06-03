@@ -1,7 +1,12 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+// @ts-check
+import reactPlugin from 'vite-plugin-react'
 
-// https://vitejs.dev/config/
-export default defineConfig({
-  plugins: [react()],
-})
+/**
+ * @type { import('vite').UserConfig }
+ */
+const config = {
+  jsx: 'react',
+  plugins: [reactPlugin]
+}
+
+export default config

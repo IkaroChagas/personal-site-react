@@ -1,0 +1,37 @@
+{
+    "resumo": "Gosto de novos desafios, e sei que a área de teconologia irá me proporcionar isso através do superpoder de criar soluções tecnológicas",
+  
+    "experienciaAcademica": [
+      {
+        "titulo": " Ciências aeronáuticas",
+        "dataInicio": "2016",
+        "dataFim": "2019"
+      },
+  
+      {
+        "titulo": " Comeia Academy",
+        "dataInicio": "2023",
+        "dataFim": " 2023"
+      }
+    ],
+  
+    "experienciaProfissional": [
+      {
+        "titulo": " Desenvolvedor de Software no Comeia",
+        "dataInicio": "2023",
+        "dataFim": " 2023"
+      },
+      {
+        "titulo": " Desenvolvedor de Software no Comeia",
+        "dataInicio": "2023",
+        "dataFim": " 2023"
+      },
+      
+      {
+        "titulo": " Desenvolvedor de Software no Comeia",
+        "dataInicio": "2023",
+        "dataFim": " 2023"
+      }
+    ]
+  }
+  
